@@ -1,12 +1,47 @@
-# React + Vite
+# SoftSell - Marketing Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive, single-page marketing website for a fictional software resale startup called **SoftSell**. This website demonstrates how users can easily sell their unused software licenses with SoftSell in just a few steps.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features Implemented
 
-## Expanding the ESLint configuration
+- **Hero Section:** Includes a bold headline, subheading, and a prominent CTA button (“Sell My Licenses”).
+- **How It Works Section:** Highlights the 3-step process:
+  1. Upload License  
+  2. Get Valuation  
+  3. Get Paid  
+  Each step includes a relevant icon for visual clarity.
+- **Why Choose Us Section:** Contains 4 key benefits of using SoftSell, each with an icon and short description.
+- **Customer Testimonials:** Two dummy reviews implemented using **Swiper** for a sleek slider and **React Icons** for visuals.
+- **Contact / Lead Form:** Users can fill out their Name, Email, Company, License Type (dropdown), and Message. Frontend validation ensures required fields and valid email format.
+- **Responsive Design:** Fully mobile-friendly and adaptive layout built with **Tailwind CSS**.
+- **Light/Dark Mode Toggle:** A toggle switch to allow users to switch between light and dark themes for better accessibility.
+- **Chatbot Integration (Bonus):** Basic AI-powered customer support chat feature using **Gemini API** (Google’s AI), since OpenAI GPT currently does not offer a free tier.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠 Tech Stack
+
+- **React + Vite** – Fast and modern frontend setup
+- **Tailwind CSS** – Utility-first CSS framework for rapid styling
+- **Swiper.js** – For smooth testimonial slider
+- **React Icons** – Easy-to-use icon pack for all UI sections
+- **Gemini API (Google AI)** – Integrated for chatbot (mocked example Q&A)
+- **Vercel** – Used for live deployment
+
+---
+
+## 🔗 Live Demo
+
+🌐 [View SoftSell Live](#)  
+
+
+---
+
+## 🧑‍💻 Setup Instructions
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/your-username/softsell-marketing-site.git
+   cd softsell-marketing-site
