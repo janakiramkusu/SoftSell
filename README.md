@@ -6,42 +6,56 @@ A responsive, single-page marketing website for a fictional software resale star
 
 ## 🚀 Features Implemented
 
-- **Hero Section:** Includes a bold headline, subheading, and a prominent CTA button (“Sell My Licenses”).
-- **How It Works Section:** Highlights the 3-step process:
+- **Hero Section:** Bold headline, subheading, and a CTA button (“Sell My Licenses”).
+- **How It Works:** Three simple steps with icons:
   1. Upload License  
   2. Get Valuation  
-  3. Get Paid  
-  Each step includes a relevant icon for visual clarity.
-- **Why Choose Us Section:** Contains 4 key benefits of using SoftSell, each with an icon and short description.
-- **Customer Testimonials:** Two dummy reviews implemented using **Swiper** for a sleek slider and **React Icons** for visuals.
-- **Contact / Lead Form:** Users can fill out their Name, Email, Company, License Type (dropdown), and Message. Frontend validation ensures required fields and valid email format.
-- **Responsive Design:** Fully mobile-friendly and adaptive layout built with **Tailwind CSS**.
-- **Light/Dark Mode Toggle:** A toggle switch to allow users to switch between light and dark themes for better accessibility.
-- **Chatbot Integration (Bonus):** Basic AI-powered customer support chat feature using **Gemini API** (Google’s AI), since OpenAI GPT currently does not offer a free tier.
+  3. Get Paid
+- **Why Choose Us:** Four reasons to choose SoftSell, with icons and short descriptions.
+- **Customer Testimonials:** Two dummy reviews, shown using a Swiper slider with React Icons.
+- **Contact / Lead Form:** Fields for Name, Email, Company, License Type (dropdown), and Message with frontend validation.
+- **Responsive Design:** Mobile-first and fully responsive layout using Tailwind CSS.
+- **Light/Dark Mode Toggle:** Users can switch between light and dark themes.
+- **Bonus - Chatbot:** Floating chat widget powered by **Gemini API** with predefined Q&A.
 
 ---
 
 ## 🛠 Tech Stack
 
-- **React + Vite** – Fast and modern frontend setup
-- **Tailwind CSS** – Utility-first CSS framework for rapid styling
-- **Swiper.js** – For smooth testimonial slider
-- **React Icons** – Easy-to-use icon pack for all UI sections
-- **Gemini API (Google AI)** – Integrated for chatbot (mocked example Q&A)
-- **Vercel** – Used for live deployment
+- **React + Vite** – Lightning-fast development environment
+- **Tailwind CSS** – Utility-first styling
+- **Swiper.js** – Testimonial slider
+- **React Icons** – For adding meaningful visuals
+- **Gemini API (Google AI)** – Used for chatbot (mocked interaction)
+- **Vercel** – For live deployment
 
 ---
 
-## 🔗 Live Demo
+## 🎨 Design Decisions
 
-🌐 [View SoftSell Live](#)  
-
+- **Color Palette:** Soft blue-to-purple gradient to convey trust and professionalism.
+- **Typography:** Clean sans-serif fonts for modern readability.
+- **Animations:** Tailwind transitions and Swiper animations for smooth interactions.
+- **Chat UX:** A minimal floating chatbot interface that answers hardcoded queries like "How do I sell my license?" using the Gemini API.
 
 ---
 
-## 🧑‍💻 Setup Instructions
+## 🔗 Live Demo & Code
 
-1. **Clone the Repository**
+🌐 [Live Site](https://softsell-swart.vercel.app/)  
+📂 [GitHub Repo](https://github.com/janakiramkusu/SoftSell.git)
+
+---
+## ⏱ Time Spent
+
+- **Total Time:** ~12 hours  
+- **Started:** Just after semester exams (1 day before deadline)  
+- **Completed:** Within the 48-hour window
+  
+---
+## 🧑‍💻 How to Run Locally
+
+1. **Clone the Repo**
    ```bash
-   git clone https://github.com/your-username/softsell-marketing-site.git
-   cd softsell-marketing-site
+   git clone https://github.com/janakiramkusu/SoftSell.git
+   cd SoftSell
